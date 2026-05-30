@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Internship Registration</title>
+<link rel="stylesheet" href="register.css">
+</head>
+<body>
+<header>
+    <center><h1>CAREER NEST</h1></center>
+</header>
+<div class="container">
+       <nav>
+        <a href="home.html">HOME</a>
+        <a href="interndetails.html">INTERNDETAILS</a>
+        <a href="idbuilder.html">IDBUILDER</a>
+        <a href="register.html">REGISTER</a>
+        </nav>
+</div>
+<form onsubmit="RegisterForm(event)" id="registerForm"> 
+<div class="form">
+<h1>Internship Registration</h1>
+
+<div class="form-group">
+<label>Full Name:</label>
+<input type="text" id="name" placeholder="Enter Your Full Name" required>
+</div>
+
+<div class="form-group">
+<label>Gender:</label>
+
+<input type="radio" name="gender"> Male
+
+<input type="radio" name="gender"> Female
+</div>
+
+<div class="form-group">
+<label>Email ID:</label>
+<input type="email" id="email" placeholder="Enter Your Email" required>
+</div>
+
+<div class="form-group">
+<label>College Name:</label>
+<input type="text" placeholder="Enter College Name" required>
+</div>
+
+<div class="form-group">
+<label>Branch:</label>
+<input type="text" placeholder="Enter Course/Branch" required>
+</div>
+
+<div class="form-group">
+<label>Phone Number:</label>
+<input type="tel" placeholder="Enter Mobile Number" required>
+</div>
+
+<div class="form-group">
+<label>Current Year:</label>
+
+<select>
+<option>1st Year</option>
+<option>2nd Year</option>
+<option>3rd Year</option>
+<option>4th Year</option>
+</select>
+</div>
+
+<div class="form-group">
+<label>Preferred Program:</label>
+
+<select>
+<option>Web Development</option>
+<option> Full Stack Web Development</option>
+<option>UI/UX Design</option>
+<option>Data Analytics</option>
+<option>AI & ML</option>
+<option>Frontend Developer</option>
+<option>Cloud Computing</option>
+<option>Research Internship</option>
+<option>Cyber Security</option>
+<option>App Development Internships</option>
+</select>
+</div>
+
+<div class="form-group">
+<label>Internship Duration:</label>
+
+<input type="radio" name="duration"> 1 Month
+
+<input type="radio" name="duration"> 3 Months
+
+</div>
+
+<div class="form-group">
+<label>Resume Upload:</label>
+<input type="file" required>
+</div>
+<div class="form-group">
+<label>IDcard Upload:</label>
+<input type="file" required>
+</div>
+
+
+    <button type="submit">Register</button>
+<div id="successPopup" class="popup">
+    <div class="popup-content">
+        <div class="tick">✅</div>
+        <h2>Registration Successful!</h2>
+        <p>You will receive a confirmation email shortly.</p>
+    </div>
+</div>
+
+</form>
+</div>
+
+<footer>
+    @2026 CareerNest.All Rights Reserved.
+</footer>
+<script src="register.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <header>CAREER NEST</header>
+    <marquee direction="right">
+      <div class="line">
+        <p>Build your career with us!!..</p>
+        <p>Build your career with us!!..</p>
+        <p>Build your career with us!!..</p>
+        <p>Build your career with us!!..</p>
+        <p>Build your career with us!!..</p>
+        <p>Build your career with us!!..</p>
+      </div>
+    </marquee>
+    <br />
+    <div class="quotes">
+      <p>ONE LOGIN AWAY FROM SUCCESS</p>
+    </div>
+    <br />
+    <div class="container1">
+      <div class="imglogin">
+        <img src="loginver.png" alt="login" height="450px" />
+      </div>
+      <div class="form">
+        <center><h2>Access Your Future Here</h2></center>
+        <h4>**Connecting Talent With Opportunities**</h4>
+        <form>
+          <label for="Username">Username:</label>
+          <input
+            type="text"
+            id="username"
+            placeholder="👤 Enter Username"
+            required
+          />
+          <br /><br />
+          <label for="Password">Password:</label>
+
+          <input
+            type="password"
+            id="password"
+            placeholder="🔒 Enter Password"
+            minlength="8"
+            required
+          />
+
+          <br /><br />
+          <center>
+            <button type="button" onclick="login()">Go Ahead</button>
+            <button type="button" onclick="refreshPage()">Refresh</button>
+          </center>
+
+          <p id="message"></p>
+        </form>
+      </div>
+    </div>
+    <br />
+    <footer>~ Login To Get Our Services ~</footer>
+    <script src="login.js"></script>
+  </body>
+</html>

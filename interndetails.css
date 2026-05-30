@@ -1,0 +1,152 @@
+header {
+  background-color: rgb(46, 15, 75);
+  height: 40px;
+  width: 1475px;
+  font-size: 30px;
+  padding: 15px 50px;
+  margin: 0;
+  font-weight: 100;
+  color: white;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 12px;
+}
+nav {
+  display: flex;
+  gap: 30px;
+  font-family: Arial, sans-serif;
+  margin-left: 20px;
+}
+nav a {
+  color: rgb(35, 5, 106);
+  padding: 10px;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+}
+a:hover {
+  transform: translate(-10px);
+  color: rgb(228, 22, 22);
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f1f5f9;
+}
+.internship-section {
+  padding: 20px;
+  background-image: url("blur.png");
+}
+
+.search-box {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.search-box input {
+  width: 60%;
+  padding: 15px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  border: 3px solid rgb(46, 15, 75);
+  box-shadow: 0 4px 10px rgb(46, 15, 75);
+}
+.search-box input:hover {
+  cursor: pointer;
+  transform: scale(1);
+}
+
+.heading {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #0f172a;
+  text-shadow: #f1f5f9;
+}
+
+.card-container {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 250px;
+  background: azure;
+  padding: 20px;
+  border-radius: 20px;
+  border: 3px solid rgb(46, 15, 75);
+  box-shadow: 0 5px 15px rgb(46, 15, 75);
+  transition: 0.4s;
+  animation: float 4s ease-in-out infinite;
+}
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-15px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgb(46, 15, 75);
+}
+
+.card h2 {
+  color: rgb(46, 15, 75);
+}
+
+.card p {
+  color: black;
+}
+
+.card button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background: rgb(46, 15, 75);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.card button:hover {
+  background: #1d4ed8;
+  cursor: pointer;
+}
+.highlight {
+  font-size: 15px;
+  background: rgb(255, 0, 111);
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

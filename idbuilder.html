@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="idbuilder.css">
+</head>
+<body>
+    <div class="cont">
+    <div class="text">
+    <h1>DIGITAL ID CARD</h1>
+    <h3>Make your internship access identity card </h3>
+</div>
+    <div class="but">
+    <h1>CAREER NEST</h1>
+</div>
+</div>
+
+<div class="container">
+       <nav>
+        <a href="home.html">HOME</a>
+        <a href="interndetails.html">INTERNDETAILS</a>
+        <a href="idbuilder.html">IDBUILDER</a>
+        <a href="register.html">REGISTER</a>
+        </nav>
+        </div>
+    <div class="cont1" >
+    <div class="details" style="background-color: rgba(222, 231, 229, 0.516);">
+        <h1 style="color: white;">Student information</h1>
+        <form action="">
+           <b> <label for="">Full Name:</label>
+            <input type="text" id="nameInput" placeholder="Enter your name"><br><br>
+            <label for="">Student id:</label>
+            <input type="text" id="idInput" placeholder="Enter your id number"><br><br>
+            <label for="">Department:</label>
+            <input type="text" id="deptInput" placeholder="Enter department name"><br><br>
+            <label for="">University:</label>
+            <input type="text" id="universityInput" placeholder="Enter university name"><br><br>
+            <label for="" >Signature:</label>
+         <input type="text"id="signatureInput" placeholder="signature">
+        </form>
+        <h1>Simple!</h1>
+        <h1>Secure!</h1>
+        <h1>Professional!</h1>
+    </div>
+    <div class="details2">
+        <label for="photoInput" class="uploadBtn">
+
+   Upload Photo
+
+       </label>
+      <input type="file" id="photoInput">
+      </div>
+    <div class="card">
+        <div class="pics" id="idCard">
+         <img src="id image.png" alt="" height="150px" id="cardPhoto" style="border-radius: 15px;">
+         <div class="text1" style="background-color: linear-gradient(135deg,#071739,#2563eb);">
+            <h1 id="cardName">HEMA</h1>
+            <h2 id="cardDept">Computer science</h2>
+            <h2 id="cardId">820325622055</h2>
+            <h2 id="cardUniversity">Anna university</h2>
+            <h2 id="cardSignature">Subha</h2>
+             <img src="logo1.png" alt="" height="200px" class="logo">
+         </div>
+             <img src="logo3.png" alt="" height="150px" class="logo2">
+
+          </div>
+         <div class="id">
+            <h1>Digital idcard</h1>
+         </div>
+    </div>
+     <button onclick="downloadCard()">
+             Download ID Card
+    </button>
+      </div>
+      <div class="last">
+        <marquee scrollamount="10"><p>***This is your official digital ID card.You can use this id for internship registration and verification***        ***This is your official digital ID card.You can use this id for internship registration and verification***</marquee></p><br>
+      </div>
+      <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script src="idbuilder.js"></script>
+    </div>
+    <footer>@CareerNest.All rights are reserved</footer>
+</body>
+</html>

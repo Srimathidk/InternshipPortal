@@ -1,0 +1,87 @@
+header {
+  background-color: rgb(46, 15, 75);
+  height: 40px;
+  width: 1475px;
+  font-size: 30px;
+  padding: 20px;
+  font-weight: 100;
+  color: white;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 12px;
+}
+body {
+  background-image: url("backlogin.png");
+}
+
+.line {
+  text-align: right;
+  margin-top: 2px;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: monospace;
+}
+.quotes p {
+  height: 25px;
+  width: 300px;
+  padding: 5px;
+  border: 2px solid;
+  text-align: center;
+  margin-left: 600px;
+  background-color: rgb(46, 15, 75);
+  color: white;
+  border-radius: 15px;
+}
+.quotes:hover {
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.container1 {
+  width: 700px;
+  height: 450px;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  margin-left: 425px;
+  box-shadow: 0px 0px 15px rgb(46, 15, 75);
+}
+.container1:hover {
+  box-shadow: 0 8px 20px rgb(46, 15, 75);
+  transform: scale(1);
+}
+.form {
+  margin-left: 15px;
+  margin-bottom: 50px;
+}
+input {
+  width: 300px;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+button {
+  background-color: rgb(46, 15, 75);
+  color: white;
+  height: 40px;
+  border-radius: 15px;
+    padding: 10px 20px;
+  margin: 5px;
+
+}
+button:hover {
+  transform: translate(-5px);
+  cursor: pointer;
+}
+footer {
+  background-color: rgb(46, 15, 75);
+  color: white;
+  text-align: center;
+  height: 20px;
+  padding: 10px;
+}
+#message {
+  color: limegreen;
+  font-weight: bold;
+}
