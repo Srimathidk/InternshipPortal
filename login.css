@@ -66,9 +66,8 @@ button {
   color: white;
   height: 40px;
   border-radius: 15px;
-    padding: 10px 20px;
+  padding: 10px 20px;
   margin: 5px;
-
 }
 button:hover {
   transform: translate(-5px);
@@ -84,4 +83,44 @@ footer {
 #message {
   color: limegreen;
   font-weight: bold;
+}
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  header {
+    width: 100%;
+    font-size: 22px;
+    padding: 15px;
+  }
+
+  .quotes p {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .container1 {
+    width: 95%;
+    height: auto;
+    margin: 20px auto;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .container1 img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  .form {
+    margin: 0;
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
 }

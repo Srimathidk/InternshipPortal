@@ -102,3 +102,23 @@ body {
     transform: scale(1);
   }
 }
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .thankyou-container {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .info {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .info p {
+    font-size: 16px;
+  }
+}

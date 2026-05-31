@@ -1,3 +1,4 @@
+
 header {
   background-color: rgb(46, 15, 75);
   height: 40px;
@@ -148,5 +149,32 @@ a {
 
   100% {
     opacity: 1;
+  }
+}
+/* Mobile Responsive */
+@media (max-width: 768px) {
+
+  header {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    font-size: 24px;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .search-box input {
+    width: 95%;
+  }
+
+  .card {
+    width: 95%;
+  }
+
+  .heading {
+    text-align: center;
   }
 }

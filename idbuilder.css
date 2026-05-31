@@ -1,3 +1,4 @@
+
 body {
   background-image: url(blur.png);
 }
@@ -227,4 +228,36 @@ footer {
   position: relative;
   bottom: 50px;
   right: 100px;
+}
+/* Mobile Responsive */
+@media (max-width: 768px) {
+
+  .cont1 {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+  }
+
+  .details {
+    width: 95%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .pics {
+    width: 95%;
+    height: auto;
+    margin-left: 0;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  input {
+    width: 90%;
+  }
+
+  img {
+    width: 120px;
+    height: auto;
+  }
 }
