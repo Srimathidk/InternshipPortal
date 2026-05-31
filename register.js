@@ -7,5 +7,5 @@ document
 
     setTimeout(() => {
       window.location.href = "end.html";
-    }, 3000);
+    }, 2000);
   });
